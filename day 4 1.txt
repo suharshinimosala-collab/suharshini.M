@@ -1,0 +1,46 @@
+Python 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+#variables
+a=10
+print(a)
+10
+print(3)
+3
+>>> b=20
+>>> print(b)
+20
+>>> c=40
+>>> print(c)
+40
+>>> d=30
+>>> print(d)
+30
+>>> Z=79
+>>> print(Z)
+79
+>>> #numbers
+>>> a4=40
+>>> print(a4)
+40
+>>> d6=84
+>>> print(d6)
+84
+>>> a0123456789=100
+>>> print(a0123456789)
+100
+>>> #doesn't allow any special char only allow '_'
+>>> _a=5
+>>> print(_a)
+5
+>>> _=68
+>>> print(_)
+68
+>>> #don't use keywords is var
+>>> firstname='jusi'
+>>> print(firstname
+... 
+...       )
+jusi
+>>> first_name="suha"
+>>> print(first_name)
+suha
