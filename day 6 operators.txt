@@ -1,0 +1,133 @@
+Python 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+#arthimatic
+a=3
+b=6
+print(a+b)
+9
+print(a-b)
+-3
+print(a*b)
+18
+print(a//b)
+0
+print(a/b)
+0.5
+print(a**b)
+729
+print(a%b)
+3
+#assignment
+a=3
+b=4
+a+=b
+a
+7
+a-=1
+a
+6
+a*=5
+a
+30
+a//=2
+a
+15
+a/=3
+a
+5.0
+a**=2
+a
+25.0
+a%=4
+a
+1.0
+a=
+SyntaxError: invalid syntax
+a
+1.0
+a=4
+b=5
+b+=a
+b
+9
+b-=1
+b
+8
+b*=2
+b
+16
+b//=3
+b
+5
+b/=4
+b
+1.25
+b**=5
+b
+3.0517578125
+b%=4
+b
+3.0517578125
+b%=2
+b
+1.0517578125
+#comparition
+a=4
+b=8
+a<b
+True
+b>a
+True
+a>b
+False
+b<a
+False
+b>=a
+True
+a!=b
+True
+a==b
+False
+a=5
+b=5
+a==b
+True
+>>> #logical
+>>> a=8
+>>> b=10
+>>> a<b and b>a
+True
+>>> a<=b and b>=a
+True
+>>> a!=b and a==b
+False
+>>> a<b or b>a
+True
+>>> a<=b or b>=a
+True
+\
+>>> a!=b or a==b
+True
+>>> not True
+False
+>>> not False
+True
+>>> #identify
+>>> #is,is not
+>>> a=6
+>>> type(a) is int
+True
+>>> type(a) is not int
+False
+>>> type(a)is float
+False
+>>> type(a)is not float
+True
+>>> #membership
+>>> a=4,5,6,7,8,9,10
+>>> 10 in a
+True
+>>> 20 in a
+False
+>>> 30 not in a
+True
