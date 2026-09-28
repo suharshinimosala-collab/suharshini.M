@@ -1,0 +1,94 @@
+Python 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+#datatypes
+a=3
+type(a)
+<class 'int'>
+b=5.6
+type(b)
+<class 'float'>
+c='code'
+type(c)
+<class 'str'>
+d="codegnan"
+type(d)
+<class 'str'>
+e='''python'''
+type(e)
+<class 'str'>
+f=5+7j
+type(f)
+<class 'complex'>
+g=6j+5
+type(g)
+<class 'complex'>
+i=6j
+type(i)
+<class 'complex'>
+b='false'
+type(b)
+<class 'str'>
+b=False
+type(b)
+<class 'bool'>
+#string
+str(6)
+'6'
+str(7.8)
+'7.8'
+str(6+9j)
+'(6+9j)'
+str("hi")
+'hi'
+str(True)
+'True'
+str(False)
+'False'
+#int
+int(8)
+8
+int(5.7)
+5
+int(5+6j)
+Traceback (most recent call last):
+  File "<pyshell#31>", line 1, in <module>
+    int(5+6j)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'complex'
+>>> int(True)
+1
+>>> int(False)
+0
+>>> #float
+>>> float(4)
+4.0
+>>> float(3.4)
+3.4
+>>> float(6+5j)
+Traceback (most recent call last):
+  File "<pyshell#37>", line 1, in <module>
+    float(6+5j)
+TypeError: float() argument must be a string or a real number, not 'complex'
+>>> #complex
+>>> complex(5)
+(5+0j)
+>>> complex(3.7)
+(3.7+0j)
+>>> complex(7+4j)
+(7+4j)
+>>> complex(True)
+(1+0j)
+>>> complex(False)
+0j
+>>> #boolean
+>>> bool(2)
+True
+>>> bool(5.2)
+True
+>>> bool(3+7j)
+True
+>>> bool('hi')
+True
+>>> bool(True)
+True
+>>> bool(False)
+False
