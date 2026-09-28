@@ -1,0 +1,16 @@
+Python 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #un packing
+>>> a,b,c=(6,7,8)
+>>> print(a,b,c)
+6 7 8
+>>> #delet key word
+>>> a=5
+>>> print(a)
+5
+>>> del(a)
+>>> print(a)
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    print(a)
+NameError: name 'a' is not defined
